@@ -1,0 +1,34 @@
+{
+  "name": "eco-eire",
+  "version": "2.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@capacitor/android": "^8.2.0",
+    "@capacitor/camera": "^8.0.2",
+    "@capacitor/cli": "^8.2.0",
+    "@capacitor/core": "^8.2.0",
+    "@capacitor/geolocation": "^8.1.0",
+    "@capacitor/preferences": "^8.0.1",
+    "@maptiler/sdk": "^3.11.1",
+    "@react-google-maps/api": "^2.19.3",
+    "axios": "^1.6.7",
+    "bcrypt": "^5.1.1",
+    "formik": "^2.4.5",
+    "mongodb": "^6.3.0",
+    "next": "14.1.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "yup": "^1.3.3"
+  },
+  "devDependencies": {
+    "@types/google.maps": "^3.55.9",
+    "eslint": "^8",
+    "eslint-config-next": "14.1.0"
+  }
+}
